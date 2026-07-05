@@ -3,6 +3,11 @@
 Setup local do Apache Airflow com Docker Compose (o template oficial da
 Apache), para testar antes de integrar Azure e Databricks.
 
+## Guias
+
+- [docs/01-instalar-docker-e-airflow.md](docs/01-instalar-docker-e-airflow.md) — instalar Docker e arrancar o Airflow do zero.
+- [docs/02-criar-primeira-dag.md](docs/02-criar-primeira-dag.md) — criar, correr e depurar a tua primeira DAG.
+
 ## Estrutura
 
 - `docker-compose.yaml` — template oficial do Airflow (CeleryExecutor +
